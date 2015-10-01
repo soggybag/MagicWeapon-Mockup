@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MagicWeapon-Mockup.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7BDFC4EE1BBD7A70007CEF7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7BDFC5051BBD7A70007CEF7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7BDFC5101BBD7A70007CEF7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

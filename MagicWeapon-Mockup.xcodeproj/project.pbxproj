@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BDFC4F31BBD7A70007CEF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC4F21BBD7A70007CEF7C /* AppDelegate.swift */; };
+		7BDFC4F51BBD7A70007CEF7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC4F41BBD7A70007CEF7C /* ViewController.swift */; };
+		7BDFC4F81BBD7A70007CEF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFC4F61BBD7A70007CEF7C /* Main.storyboard */; };
+		7BDFC4FB1BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC4F91BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodeld */; };
+		7BDFC4FD1BBD7A70007CEF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFC4FC1BBD7A70007CEF7C /* Assets.xcassets */; };
+		7BDFC5001BBD7A70007CEF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFC4FE1BBD7A70007CEF7C /* LaunchScreen.storyboard */; };
+		7BDFC50B1BBD7A70007CEF7C /* MagicWeapon_MockupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC50A1BBD7A70007CEF7C /* MagicWeapon_MockupTests.swift */; };
+		7BDFC5161BBD7A70007CEF7C /* MagicWeapon_MockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFC5151BBD7A70007CEF7C /* MagicWeapon_MockupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BDFC5071BBD7A70007CEF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDFC4E71BBD7A70007CEF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDFC4EE1BBD7A70007CEF7C;
+			remoteInfo = "MagicWeapon-Mockup";
+		};
+		7BDFC5121BBD7A70007CEF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDFC4E71BBD7A70007CEF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDFC4EE1BBD7A70007CEF7C;
+			remoteInfo = "MagicWeapon-Mockup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BDFC4EF1BBD7A70007CEF7C /* MagicWeapon-Mockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MagicWeapon-Mockup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDFC4F21BBD7A70007CEF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BDFC4F41BBD7A70007CEF7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BDFC4F71BBD7A70007CEF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BDFC4FA1BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicWeapon_Mockup.xcdatamodel; sourceTree = "<group>"; };
+		7BDFC4FC1BBD7A70007CEF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BDFC4FF1BBD7A70007CEF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BDFC5011BBD7A70007CEF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDFC5061BBD7A70007CEF7C /* MagicWeapon-MockupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicWeapon-MockupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDFC50A1BBD7A70007CEF7C /* MagicWeapon_MockupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicWeapon_MockupTests.swift; sourceTree = "<group>"; };
+		7BDFC50C1BBD7A70007CEF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDFC5111BBD7A70007CEF7C /* MagicWeapon-MockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MagicWeapon-MockupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDFC5151BBD7A70007CEF7C /* MagicWeapon_MockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicWeapon_MockupUITests.swift; sourceTree = "<group>"; };
+		7BDFC5171BBD7A70007CEF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDFC4EC1BBD7A70007CEF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC5031BBD7A70007CEF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC50E1BBD7A70007CEF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDFC4E61BBD7A70007CEF7C = {
+			isa = PBXGroup;
+			children = (
+				7BDFC4F11BBD7A70007CEF7C /* MagicWeapon-Mockup */,
+				7BDFC5091BBD7A70007CEF7C /* MagicWeapon-MockupTests */,
+				7BDFC5141BBD7A70007CEF7C /* MagicWeapon-MockupUITests */,
+				7BDFC4F01BBD7A70007CEF7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDFC4F01BBD7A70007CEF7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC4EF1BBD7A70007CEF7C /* MagicWeapon-Mockup.app */,
+				7BDFC5061BBD7A70007CEF7C /* MagicWeapon-MockupTests.xctest */,
+				7BDFC5111BBD7A70007CEF7C /* MagicWeapon-MockupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDFC4F11BBD7A70007CEF7C /* MagicWeapon-Mockup */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC4F21BBD7A70007CEF7C /* AppDelegate.swift */,
+				7BDFC4F41BBD7A70007CEF7C /* ViewController.swift */,
+				7BDFC4F61BBD7A70007CEF7C /* Main.storyboard */,
+				7BDFC4FC1BBD7A70007CEF7C /* Assets.xcassets */,
+				7BDFC4FE1BBD7A70007CEF7C /* LaunchScreen.storyboard */,
+				7BDFC5011BBD7A70007CEF7C /* Info.plist */,
+				7BDFC4F91BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodeld */,
+			);
+			path = "MagicWeapon-Mockup";
+			sourceTree = "<group>";
+		};
+		7BDFC5091BBD7A70007CEF7C /* MagicWeapon-MockupTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC50A1BBD7A70007CEF7C /* MagicWeapon_MockupTests.swift */,
+				7BDFC50C1BBD7A70007CEF7C /* Info.plist */,
+			);
+			path = "MagicWeapon-MockupTests";
+			sourceTree = "<group>";
+		};
+		7BDFC5141BBD7A70007CEF7C /* MagicWeapon-MockupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BDFC5151BBD7A70007CEF7C /* MagicWeapon_MockupUITests.swift */,
+				7BDFC5171BBD7A70007CEF7C /* Info.plist */,
+			);
+			path = "MagicWeapon-MockupUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDFC4EE1BBD7A70007CEF7C /* MagicWeapon-Mockup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDFC51A1BBD7A70007CEF7C /* Build configuration list for PBXNativeTarget "MagicWeapon-Mockup" */;
+			buildPhases = (
+				7BDFC4EB1BBD7A70007CEF7C /* Sources */,
+				7BDFC4EC1BBD7A70007CEF7C /* Frameworks */,
+				7BDFC4ED1BBD7A70007CEF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MagicWeapon-Mockup";
+			productName = "MagicWeapon-Mockup";
+			productReference = 7BDFC4EF1BBD7A70007CEF7C /* MagicWeapon-Mockup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BDFC5051BBD7A70007CEF7C /* MagicWeapon-MockupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDFC51D1BBD7A70007CEF7C /* Build configuration list for PBXNativeTarget "MagicWeapon-MockupTests" */;
+			buildPhases = (
+				7BDFC5021BBD7A70007CEF7C /* Sources */,
+				7BDFC5031BBD7A70007CEF7C /* Frameworks */,
+				7BDFC5041BBD7A70007CEF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDFC5081BBD7A70007CEF7C /* PBXTargetDependency */,
+			);
+			name = "MagicWeapon-MockupTests";
+			productName = "MagicWeapon-MockupTests";
+			productReference = 7BDFC5061BBD7A70007CEF7C /* MagicWeapon-MockupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BDFC5101BBD7A70007CEF7C /* MagicWeapon-MockupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDFC5201BBD7A70007CEF7C /* Build configuration list for PBXNativeTarget "MagicWeapon-MockupUITests" */;
+			buildPhases = (
+				7BDFC50D1BBD7A70007CEF7C /* Sources */,
+				7BDFC50E1BBD7A70007CEF7C /* Frameworks */,
+				7BDFC50F1BBD7A70007CEF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDFC5131BBD7A70007CEF7C /* PBXTargetDependency */,
+			);
+			name = "MagicWeapon-MockupUITests";
+			productName = "MagicWeapon-MockupUITests";
+			productReference = 7BDFC5111BBD7A70007CEF7C /* MagicWeapon-MockupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDFC4E71BBD7A70007CEF7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "mitchell hudson";
+				TargetAttributes = {
+					7BDFC4EE1BBD7A70007CEF7C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7BDFC5051BBD7A70007CEF7C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7BDFC4EE1BBD7A70007CEF7C;
+					};
+					7BDFC5101BBD7A70007CEF7C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7BDFC4EE1BBD7A70007CEF7C;
+					};
+				};
+			};
+			buildConfigurationList = 7BDFC4EA1BBD7A70007CEF7C /* Build configuration list for PBXProject "MagicWeapon-Mockup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDFC4E61BBD7A70007CEF7C;
+			productRefGroup = 7BDFC4F01BBD7A70007CEF7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDFC4EE1BBD7A70007CEF7C /* MagicWeapon-Mockup */,
+				7BDFC5051BBD7A70007CEF7C /* MagicWeapon-MockupTests */,
+				7BDFC5101BBD7A70007CEF7C /* MagicWeapon-MockupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDFC4ED1BBD7A70007CEF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC5001BBD7A70007CEF7C /* LaunchScreen.storyboard in Resources */,
+				7BDFC4FD1BBD7A70007CEF7C /* Assets.xcassets in Resources */,
+				7BDFC4F81BBD7A70007CEF7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC5041BBD7A70007CEF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC50F1BBD7A70007CEF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDFC4EB1BBD7A70007CEF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC4F51BBD7A70007CEF7C /* ViewController.swift in Sources */,
+				7BDFC4F31BBD7A70007CEF7C /* AppDelegate.swift in Sources */,
+				7BDFC4FB1BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC5021BBD7A70007CEF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC50B1BBD7A70007CEF7C /* MagicWeapon_MockupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDFC50D1BBD7A70007CEF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFC5161BBD7A70007CEF7C /* MagicWeapon_MockupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BDFC5081BBD7A70007CEF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDFC4EE1BBD7A70007CEF7C /* MagicWeapon-Mockup */;
+			targetProxy = 7BDFC5071BBD7A70007CEF7C /* PBXContainerItemProxy */;
+		};
+		7BDFC5131BBD7A70007CEF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDFC4EE1BBD7A70007CEF7C /* MagicWeapon-Mockup */;
+			targetProxy = 7BDFC5121BBD7A70007CEF7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BDFC4F61BBD7A70007CEF7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDFC4F71BBD7A70007CEF7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BDFC4FE1BBD7A70007CEF7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDFC4FF1BBD7A70007CEF7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDFC5181BBD7A70007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BDFC5191BBD7A70007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDFC51B1BBD7A70007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MagicWeapon-Mockup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.MagicWeapon-Mockup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BDFC51C1BBD7A70007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MagicWeapon-Mockup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.MagicWeapon-Mockup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BDFC51E1BBD7A70007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MagicWeapon-MockupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.MagicWeapon-MockupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWeapon-Mockup.app/MagicWeapon-Mockup";
+			};
+			name = Debug;
+		};
+		7BDFC51F1BBD7A70007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MagicWeapon-MockupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.MagicWeapon-MockupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWeapon-Mockup.app/MagicWeapon-Mockup";
+			};
+			name = Release;
+		};
+		7BDFC5211BBD7A70007CEF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MagicWeapon-MockupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.MagicWeapon-MockupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MagicWeapon-Mockup";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7BDFC5221BBD7A70007CEF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MagicWeapon-MockupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webdevils.MagicWeapon-MockupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MagicWeapon-Mockup";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDFC4EA1BBD7A70007CEF7C /* Build configuration list for PBXProject "MagicWeapon-Mockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC5181BBD7A70007CEF7C /* Debug */,
+				7BDFC5191BBD7A70007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDFC51A1BBD7A70007CEF7C /* Build configuration list for PBXNativeTarget "MagicWeapon-Mockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC51B1BBD7A70007CEF7C /* Debug */,
+				7BDFC51C1BBD7A70007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BDFC51D1BBD7A70007CEF7C /* Build configuration list for PBXNativeTarget "MagicWeapon-MockupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC51E1BBD7A70007CEF7C /* Debug */,
+				7BDFC51F1BBD7A70007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BDFC5201BBD7A70007CEF7C /* Build configuration list for PBXNativeTarget "MagicWeapon-MockupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDFC5211BBD7A70007CEF7C /* Debug */,
+				7BDFC5221BBD7A70007CEF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BDFC4F91BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BDFC4FA1BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodel */,
+			);
+			currentVersion = 7BDFC4FA1BBD7A70007CEF7C /* MagicWeapon_Mockup.xcdatamodel */;
+			path = MagicWeapon_Mockup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BDFC4E71BBD7A70007CEF7C /* Project object */;
+}
